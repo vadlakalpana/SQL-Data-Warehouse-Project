@@ -5,9 +5,9 @@ Welcome to the ** Data Warehouse and Analytics project **
 This project demonstrates a comprehensive data warehousing and analytical solution, from building a data warehouse to generate actionable insights. Designed as a portfolio project highlights the best practices in the industries like Data Engineering and Data Analytics.
 
 
-# 🏢 Modern Data Warehouse Project (SQL Server)
+# 🏢 Modern Data Warehouse Project (MYSQL)
 
-Develop a modern data warehouse using **SQL Server** to consolidate sales data from multiple source systems, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using **MYSQL** to consolidate sales data from multiple source systems, enabling analytical reporting and informed decision-making.
 
 ---
 
