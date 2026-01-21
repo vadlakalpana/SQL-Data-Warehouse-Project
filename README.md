@@ -84,5 +84,4 @@ Hi! I'm **Vadla Kalpana**, an aspiring Data Analyst and Data Engineer with a str
 
 This project is part of my learning journey and professional portfolio, where I apply real-world data engineering concepts using MySQL, data modeling, and analytics.
 
-📫 Feel free to connect with me on LinkedIn: []
 
