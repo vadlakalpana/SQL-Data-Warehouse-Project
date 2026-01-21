@@ -76,6 +76,9 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+Data Architecture 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cec738ee-245c-4e2a-a701-f3e8c20ebd8e" />
+
 
 
 ## 👩‍💻 About Me
