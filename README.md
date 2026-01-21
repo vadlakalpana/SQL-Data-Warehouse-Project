@@ -76,8 +76,10 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Sales Trends**
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+--------------------------------------------------------------------------------------------------------
 Data Architecture 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cec738ee-245c-4e2a-a701-f3e8c20ebd8e" />
+-------------------------------------------------------------------------------------------------------------
+<img width="747" height="319" alt="Data Ware House Architecture drawio" src="https://github.com/user-attachments/assets/9e8a869c-5b26-4296-a518-1da24e67554f" />
 
 
 
