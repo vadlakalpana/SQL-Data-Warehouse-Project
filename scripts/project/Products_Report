@@ -1,0 +1,134 @@
+/*
+=======================================================================
+Product Report View
+=======================================================================
+
+Purpose:
+    - This view consolidates key product-level business metrics.
+
+Highlights:
+    1. Combines product attributes with sales data.
+    2. Calculates key performance metrics such as:
+        - total orders
+        - total sales
+        - total quantity sold
+        - total customers (unique)
+        - product lifespan
+        - recency of last sale
+    3. Segments products into:
+        - High-performers
+        - Mid-range
+        - Low-performers
+=======================================================================
+*/
+
+CREATE VIEW gold.report_products AS
+
+-- ------------------------------------------------------------
+-- Step 1: Base query to combine sales and product details
+-- ------------------------------------------------------------
+WITH base_query AS (
+    SELECT 
+        f.order_number,
+        f.order_date,
+        f.customer_key,
+        f.sales_amount,
+        f.quantity,
+        f.product_key,
+        p.product_name,
+        p.category,
+        p.subcategory,
+        p.cost
+    FROM gold.fact_sales f
+    LEFT JOIN gold.dim_products p
+        ON f.product_key = p.product_key
+    WHERE f.order_date IS NOT NULL
+),
+
+-- ------------------------------------------------------------
+-- Step 2: Aggregate product-level metrics
+-- ------------------------------------------------------------
+product_aggregations AS (
+    SELECT 
+        product_key,
+        product_name,
+        category,
+        subcategory,
+        cost,
+
+        -- Product lifespan (in months)
+        TIMESTAMPDIFF(MONTH, MIN(order_date), MAX(order_date)) AS lifespan,
+
+        -- Last sale date
+        MAX(order_date) AS last_sale_date,
+
+        -- Total number of orders
+        COUNT(DISTINCT order_number) AS total_orders,
+
+        -- Total number of unique customers
+        COUNT(DISTINCT customer_key) AS total_customers,
+
+        -- Total sales revenue
+        SUM(sales_amount) AS total_sales,
+
+        -- Total quantity sold
+        SUM(quantity) AS total_quantity,
+
+        -- Average selling price
+        ROUND(SUM(sales_amount) / NULLIF(SUM(quantity), 0), 1) AS avg_selling_price
+    FROM base_query
+    GROUP BY 
+        product_key,
+        product_name,
+        category,
+        subcategory,
+        cost
+)
+
+-- ------------------------------------------------------------
+-- Step 3: Final report with segmentation and derived metrics
+-- ------------------------------------------------------------
+SELECT 
+    product_key,
+    product_name,
+    category,
+    subcategory,
+    cost,
+    last_sale_date,
+
+    -- Recency in months since last sale
+    TIMESTAMPDIFF(MONTH, last_sale_date, NOW()) AS recency_in_months,
+
+    -- Product performance segmentation
+    CASE 
+        WHEN total_sales >= 100000 THEN 'High-performer'
+        WHEN total_sales >= 50000 THEN 'Mid-range'
+        ELSE 'Low-performer'
+    END AS product_segment,
+
+    lifespan,
+    total_orders,
+    total_sales,
+    total_quantity,
+    total_customers,
+    avg_selling_price,
+
+    -- Average order value
+    CASE 
+        WHEN total_orders = 0 THEN 0
+        ELSE total_sales / total_orders
+    END AS avg_order_value,
+
+    -- Average monthly revenue
+    CASE 
+        WHEN lifespan = 0 THEN total_sales 
+        ELSE total_sales / lifespan 
+    END AS avg_monthly_revenue 
+FROM product_aggregations;
+
+--Viewing the Report
+SELECT * FROM gold.report_products;
+
+
+
+
