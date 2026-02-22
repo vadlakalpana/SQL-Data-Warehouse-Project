@@ -1,4 +1,4 @@
-============================================================================================================
+====================================================================================
 # SQL-Data-Warehouse-Project
 Building a modern data with MYSQL including ETL process, Data Analytics.
 
@@ -12,12 +12,14 @@ Developed a modern data warehouse using **MYSQL** to consolidate sales data from
 
 ---
 =============================================================================================
-##📌 Project Overview
+📌 Project Overview:
+
 This project demonstrates a complete, end-to-end Data Warehouse solution built using MySQL — covering data ingestion from multiple source systems, ETL processing, dimensional modeling, and SQL-based analytics to generate actionable business insights.
 Designed as a professional portfolio project, it reflects real-world data engineering and analytics practices used across industries.
 
 =================================================================================================
-🎯 Business Problem
+🎯 Business Problem:
+
 Organizations often struggle to make sense of data scattered across multiple systems like ERP and CRM. Without a unified data model, reporting is slow, inconsistent, and unreliable.
 This project solves that by:
 
@@ -27,7 +29,7 @@ Building a dimensional model that enables fast, flexible business analysis
 Delivering insights on customer behavior, product performance, and sales trends
 
 ===================================================================================================
-## 🎯 Project Objectives
+## 🎯 Project Objectives:
 
 - Consolidate data from multiple business systems into a unified data model
 - Clean and standardize data to ensure high quality
