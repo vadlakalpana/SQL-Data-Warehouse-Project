@@ -105,17 +105,17 @@ Applied business rules and data validation checks
 
 Load
 
-**Loaded cleansed data into fact and dimension tables following star schema design
-Validated referential integrity across all table relationships**
+Loaded cleansed data into fact and dimension tables following star schema design validated referential integrity across all table relationships.
 ===========================================================================================
 ✅ Data Quality Checks
 Before loading into the gold layer, the following validations were applied:
 
-Null checks on all primary and foreign key columns
-Duplicate detection and removal at source level
-Format standardization for dates, currency, and categorical fields
-Referential integrity checks between fact and dimension tables
-Record count reconciliation between source and target layers
+- Null checks on all primary and foreign key columns
+- Duplicate detection and removal at source level
+- Format standardization for dates, currency, and categorical fields
+- Referential integrity checks between fact and dimension tables
+- Record count reconciliation between source and target layers
+
 ======================================================================================
 
 ### 🔹 Integration
