@@ -105,7 +105,7 @@ Applied business rules and data validation checks
 
 Load
 
-Loaded cleansed data into fact and dimension tables following star schema design validated referential integrity across all table relationships.
+**Loaded cleansed data into fact and dimension tables following star schema design validated referential integrity across all table relationships.**
 ===========================================================================================
 ✅ Data Quality Checks
 Before loading into the gold layer, the following validations were applied:
