@@ -134,8 +134,8 @@ Develop SQL-based analytics to deliver detailed insights into:
 - **Customer Behavior**
 - **Product Performance**
 - **Sales Trends**
-
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
 --------------------------------------------------------------------------------------------------------
 Data Architecture 
 -------------------------------------------------------------------------------------------------------------
@@ -156,7 +156,7 @@ scripts/etl/        → Load and transform data
 scripts/analytics/  → Run analytical queries
 tests/              → Validate data quality
 
-Explore the insights through the analytics scripts
+
 ========================================================================================================
 📚 What I Learned
 
