@@ -108,17 +108,18 @@ Duplicate detection and removal at source level
 Format standardization for dates, currency, and categorical fields
 Referential integrity checks between fact and dimension tables
 Record count reconciliation between source and target layers
-============================================================================================
+======================================================================================
+
 ### 🔹 Integration
 - Combine both sources into a **single analytical data model**
 - Use dimensional modeling (Star Schema)
 
-================================================================================================
+==========================================================================================
 ### 🔹 Scope
 - Focus on the **latest dataset only**
 - No historical versioning or slowly changing dimensions required
 
-==============================================================================================
+=========================================================================================
 ### 🔹 Documentation
 - Provide clear documentation for:
   - Data model
@@ -127,7 +128,7 @@ Record count reconciliation between source and target layers
   - Business definitions
 
 ---
-=============================================================================================
+==========================================================================================
 
 ### BI: Analytics & Reporting (Data Analytics)
 
