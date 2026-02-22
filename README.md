@@ -11,7 +11,7 @@ This project demonstrates a comprehensive data warehousing and analytical soluti
 Developed a modern data warehouse using **MYSQL** to consolidate sales data from multiple source systems, enabling analytical reporting and informed decision-making.
 
 ---
-==========================================================================================
+============================================================================================
 📌 Project Overview:
 
 This project demonstrates a complete, end-to-end Data Warehouse solution built using MySQL — covering data ingestion from multiple source systems, ETL processing, dimensional modeling, and SQL-based analytics to generate actionable business insights.
