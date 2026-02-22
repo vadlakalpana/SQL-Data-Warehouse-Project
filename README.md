@@ -17,7 +17,7 @@ Developed a modern data warehouse using **MYSQL** to consolidate sales data from
 This project demonstrates a complete, end-to-end Data Warehouse solution built using MySQL — covering data ingestion from multiple source systems, ETL processing, dimensional modeling, and SQL-based analytics to generate actionable business insights.
 Designed as a professional portfolio project, it reflects real-world data engineering and analytics practices used across industries.
 
-=================================================================================
+============================================================================================
 🎯 Business Problem:
 
 Organizations often struggle to make sense of data scattered across multiple systems like ERP and CRM. Without a unified data model, reporting is slow, inconsistent, and unreliable.
