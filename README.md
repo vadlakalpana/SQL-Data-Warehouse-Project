@@ -65,7 +65,8 @@ Draw.io            Architecture and data flow diagrams
 - Two source systems:
   - **ERP** system (CSV files)
   - **CRM** system (CSV files)
-====================================================================================
+
+
 ### 🔹 Data Quality
 - Cleanse and resolve:
   - Missing values
@@ -73,7 +74,7 @@ Draw.io            Architecture and data flow diagrams
   - Inconsistent formats
   - Invalid entries
  
-================================================================================
+========================================================================================
 📐 Data Modeling — Star Schema
 The analytical layer uses a Star Schema design with:
 
