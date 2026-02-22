@@ -43,12 +43,16 @@ Delivering insights on customer behavior, product performance, and sales trends
 ==========================================
 
 SQL-Data-Warehouse-Project
-│
- datasets/ ---- Raw source data (ERP & CRM CSV files)
- diagrams/ ---- Architecture and data model diagrams
- docs/     ---- Documentation — data dictionary, ETL logic, table definitions
- scripts/  ---- SQL scripts for DDL, ETL, and analytics
- tests/    ---- Data quality and validation test scripts
+
+ datasets/ ---- Raw source data (ERP & CRM CSV files).
+ 
+ diagrams/ ---- Architecture and data model diagrams.
+ 
+ docs/     ---- Documentation — data dictionary, ETL logic, table definitions.
+ 
+ scripts/  ---- SQL scripts for DDL, ETL, and analytics.
+ 
+ tests/    ---- Data quality and validation test scripts.
  
 
 ========================================================================================
