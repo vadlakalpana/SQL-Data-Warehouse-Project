@@ -41,6 +41,7 @@ Delivering insights on customer behavior, product performance, and sales trends
 
 ---
 ==========================================
+
 SQL-Data-Warehouse-Project
 │
  datasets/ ---- Raw source data (ERP & CRM CSV files)
@@ -50,13 +51,17 @@ SQL-Data-Warehouse-Project
  tests/    ---- Data quality and validation test scripts
  
 
-=========================================================================
+========================================================================================
+
 🔧 Tech Stack
 
-MySQL : Database, ETL logic, analytics queries
-Star Schema :Dimensional data modeling
-CSV Files    : Source data (ERP & CRM systems)
-Draw.io      : Architecture and data flow diagrams
+MySQL------- Database, ETL logic, analytics queries.
+
+Star Schema---------Dimensional data modeling.
+
+CSV Files-----------Source data (ERP & CRM systems).
+
+Draw.io--------------Architecture and data flow diagrams
 
 =================================================================================
 ## 🧾 Specifications
