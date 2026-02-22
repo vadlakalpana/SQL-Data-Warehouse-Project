@@ -91,7 +91,6 @@ Fact Table: Sales transactions with measurable metrics (quantity, revenue, dates
 
 Dimension Tables: Customer, Product.
 
-This design enables fast aggregations and flexible slicing across business dimensions.
 ============================================================================================
 🔄 ETL Process
 Extract
@@ -106,8 +105,8 @@ Applied business rules and data validation checks
 
 Load
 
-Loaded cleansed data into fact and dimension tables following star schema design
-Validated referential integrity across all table relationships
+**Loaded cleansed data into fact and dimension tables following star schema design
+Validated referential integrity across all table relationships**
 ===========================================================================================
 ✅ Data Quality Checks
 Before loading into the gold layer, the following validations were applied:
