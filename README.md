@@ -74,7 +74,7 @@ Draw.io            Architecture and data flow diagrams
   - Inconsistent formats
   - Invalid entries
  
-========================================================================================
+=========================================================================================
 📐 Data Modeling — Star Schema
 The analytical layer uses a Star Schema design with:
 
