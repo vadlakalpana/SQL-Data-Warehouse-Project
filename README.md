@@ -40,23 +40,23 @@ Delivering insights on customer behavior, product performance, and sales trends
 - Support business stakeholders with actionable insights
 
 ---
-=========================================================
-SQL-Data-Warehouse-Project/
+==========================================
+SQL-Data-Warehouse-Project
 │
-├── datasets/          # Raw source data (ERP & CRM CSV files)
-├── diagrams/          # Architecture and data model diagrams
-├── docs/              # Documentation — data dictionary, ETL logic, table definitions
-├── scripts/           # SQL scripts for DDL, ETL, and analytics
-├── tests/             # Data quality and validation test scripts
-└── README.md
+ datasets/ ---- Raw source data (ERP & CRM CSV files)
+ diagrams/ ---- Architecture and data model diagrams
+ docs/     ---- Documentation — data dictionary, ETL logic, table definitions
+ scripts/  ---- SQL scripts for DDL, ETL, and analytics
+ tests/    ---- Data quality and validation test scripts
+ 
 
 =========================================================================
 🔧 Tech Stack
-**Tool **   ----   ** Purpose**
-MySQL              Database, ETL logic, analytics queries
-Star Schema        Dimensional data modeling
-CSV Files          Source data (ERP & CRM systems)
-Draw.io            Architecture and data flow diagrams
+
+MySQL : Database, ETL logic, analytics queries
+Star Schema :Dimensional data modeling
+CSV Files    : Source data (ERP & CRM systems)
+Draw.io      : Architecture and data flow diagrams
 
 =================================================================================
 ## 🧾 Specifications
