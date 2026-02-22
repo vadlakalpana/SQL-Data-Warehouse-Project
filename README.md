@@ -5,19 +5,19 @@ Building a modern data with MYSQL including ETL process, Data Analytics.
 Welcome to the ** Data Warehouse and Analytics project **
 This project demonstrates a comprehensive data warehousing and analytical solution, from building a data warehouse to generate actionable insights. Designed as a portfolio project highlights the best practices in the industries like Data Engineering and Data Analytics.
 
-===========================================================================================
+==============================================================================
 # 🏢 Modern Data Warehouse Project (MYSQL)
 
 Developed a modern data warehouse using **MYSQL** to consolidate sales data from multiple source systems, enabling analytical reporting and informed decision-making.
 
 ---
-=============================================================================================
+=============================================================================
 📌 Project Overview:
 
 This project demonstrates a complete, end-to-end Data Warehouse solution built using MySQL — covering data ingestion from multiple source systems, ETL processing, dimensional modeling, and SQL-based analytics to generate actionable business insights.
 Designed as a professional portfolio project, it reflects real-world data engineering and analytics practices used across industries.
 
-=================================================================================================
+=================================================================================
 🎯 Business Problem:
 
 Organizations often struggle to make sense of data scattered across multiple systems like ERP and CRM. Without a unified data model, reporting is slow, inconsistent, and unreliable.
@@ -28,7 +28,7 @@ Cleaning and standardizing data for reliable reporting
 Building a dimensional model that enables fast, flexible business analysis
 Delivering insights on customer behavior, product performance, and sales trends
 
-===================================================================================================
+====================================================================================
 ## 🎯 Project Objectives:
 
 - Consolidate data from multiple business systems into a unified data model
@@ -40,7 +40,7 @@ Delivering insights on customer behavior, product performance, and sales trends
 - Support business stakeholders with actionable insights
 
 ---
-======================================================================
+=========================================================
 SQL-Data-Warehouse-Project/
 │
 ├── datasets/          # Raw source data (ERP & CRM CSV files)
